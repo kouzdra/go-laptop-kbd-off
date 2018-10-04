@@ -1,5 +1,5 @@
-all: main
+all: kbd-float
 	./$<
 
-main::
+kbd-float::
 	go build kbd-float.go
